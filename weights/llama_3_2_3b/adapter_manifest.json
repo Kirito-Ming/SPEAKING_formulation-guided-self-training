@@ -1,0 +1,13 @@
+{
+  "model_id": "llama_3_2_3b_instruct",
+  "recipe": "C5",
+  "seed": 20260825,
+  "rank": 16,
+  "alpha": 32.0,
+  "fraction": 0.25,
+  "preservation_ratio": 1.0,
+  "state_file": "adapter_state.safetensors",
+  "state_sha256": "604c0ee20f141842687c7a134fc069952171554292c8aa9055ccb1fb652f47f2",
+  "state_bytes": 48670696,
+  "trainable_parameter_count": 24313856
+}

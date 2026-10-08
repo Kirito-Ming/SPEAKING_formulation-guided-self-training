@@ -1,0 +1,13 @@
+{
+  "model_id": "qwen3_4b_instruct_2507",
+  "recipe": "C6",
+  "seed": 20260825,
+  "rank": 16,
+  "alpha": 32.0,
+  "fraction": 0.5,
+  "preservation_ratio": 1.0,
+  "state_file": "adapter_state.safetensors",
+  "state_sha256": "f31ab7538184cbbc834acb62c6d8e5202f19b03b79905f6d34028673206deacb",
+  "state_bytes": 66115648,
+  "trainable_parameter_count": 33030144
+}

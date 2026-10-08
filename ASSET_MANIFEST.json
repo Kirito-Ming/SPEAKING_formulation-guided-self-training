@@ -1,0 +1,36 @@
+{
+  "release": "formulation-guided-self-training-minimal-v1",
+  "paper_alignment": {
+    "article": "docs/sn-article.tex",
+    "supplement": "docs/supplementary-information.tex",
+    "evaluation_partition": "Transfer",
+    "deployment_view": "D00"
+  },
+  "assets": [
+    {
+      "path": "data/transfer_tasks.parquet",
+      "bytes": 656145,
+      "sha256": "efd61b564dd80c330367f0db97383845494d92341ccf6702a6cbe67049ec70a1",
+      "rows": 900
+    },
+    {
+      "path": "weights/qwen3_4b/adapter_state.safetensors",
+      "bytes": 66115648,
+      "sha256": "f31ab7538184cbbc834acb62c6d8e5202f19b03b79905f6d34028673206deacb",
+      "paper_listener": "Qwen3-4B",
+      "base_model": "Qwen/Qwen3-4B-Instruct-2507"
+    },
+    {
+      "path": "weights/llama_3_2_3b/adapter_state.safetensors",
+      "bytes": 48670696,
+      "sha256": "604c0ee20f141842687c7a134fc069952171554292c8aa9055ccb1fb652f47f2",
+      "paper_listener": "Llama-3.2-3B",
+      "base_model": "meta-llama/Llama-3.2-3B-Instruct"
+    },
+    {
+      "path": "reference/paper_transfer_results.csv",
+      "bytes": 483,
+      "sha256": "fab0b13958e154bc4b24fccfc67495de92f69d8ca7be7d5f47ecbde096a35366"
+    }
+  ]
+}

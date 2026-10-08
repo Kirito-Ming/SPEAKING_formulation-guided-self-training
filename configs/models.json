@@ -1,0 +1,21 @@
+{
+  "qwen3_4b": {
+    "paper_name": "Qwen3-4B",
+    "base_model": "Qwen/Qwen3-4B-Instruct-2507",
+    "adapter": "weights/qwen3_4b",
+    "trajectory_selection": "Pareto-filtered",
+    "candidate_bank_tasks": 4464,
+    "training_tasks": 2232,
+    "selected_fraction": 0.5
+  },
+  "llama_3_2_3b": {
+    "paper_name": "Llama-3.2-3B",
+    "base_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "adapter": "weights/llama_3_2_3b",
+    "trajectory_selection": "Pareto-filtered",
+    "candidate_bank_tasks": 4043,
+    "training_tasks": 1011,
+    "selected_fraction_approximate": 0.25,
+    "run_identifier": "C5"
+  }
+}

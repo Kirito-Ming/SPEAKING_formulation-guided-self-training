@@ -6,8 +6,6 @@ It compares deterministic responses to the unchanged standard request (`D00`)
 before and after adaptation, then reports paired success, rescue, harm, and net
 gain. No Human-speaker rule or routing wrapper is used at deployment.
 
-Chinese instructions: [README.zh-CN.md](README.zh-CN.md).
-
 ## What is included
 
 | Paper term | Release artifact |
